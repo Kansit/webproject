@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'TH Sarabun New';
+    src: url('font/Prompt-Thin.ttf') format('truetype');
+}
+
+body {
+    font-family: 'TH Sarabun New', sans-serif;
+}
+
+.header {
+    display: flex;
+    height: 80px;
+    font-family: Arial;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    max-width: 960px; 
+    margin: 0 auto; 
+    padding: 10px; 
+}
+
+.header-wrapper {
+    flex: 1; 
+}
+
+.social-icon {
+    padding-right: 10px; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu, .account-menu {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.menu li, .account-menu li {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+nav {
+    display: flex;
+    background-color: #ffffff;
+    outline: 1px solid rgb(109, 109, 109);
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+
+    & .menu,  .account-menu{
+        display: flex;
+
+        & li {
+            margin: 0 1rem;
+        }
+    }
+
+}
+
+.search-form {
+    border-radius: 50px; /* กำหนดรัศมีของมุม */
+    overflow: hidden; 
+}
+
+.search-form input[type="text"],
+.search-form button {
+    border: none; /* ไม่มีเส้นขอบ */
+    outline: none; /* ไม่มีเส้นขอบเมื่อโฟกัส */
+    padding: 3px; /* กำหนดขนาดของพื้นที่ของ input และ button */
+}
+
+.search-form button {
+    background-color: #ffa600; 
+    color: rgb(255, 255, 255); 
+    width: 50px; 
+    cursor: pointer; 
+}
+
