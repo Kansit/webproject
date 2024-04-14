@@ -43,12 +43,6 @@ a {
     color: black;
 }
 
-.menu, .account-menu {
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0; 
-}
-
 .menu li, .account-menu li {
     display: inline-block; 
     margin-right: 10px; 
@@ -90,4 +84,26 @@ nav {
     width: 50px; 
     cursor: pointer; 
 }
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 0;
+}
+
+
+.footer-menu h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-menu ul li {
+    margin-bottom: 80px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
 
