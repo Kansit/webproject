@@ -16,7 +16,6 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 100%; 
     max-width: 960px; 
@@ -67,15 +66,15 @@ nav {
 }
 
 .search-form {
-    border-radius: 50px; /* กำหนดรัศมีของมุม */
+    border-radius: 50px;
     overflow: hidden; 
 }
 
 .search-form input[type="text"],
 .search-form button {
-    border: none; /* ไม่มีเส้นขอบ */
-    outline: none; /* ไม่มีเส้นขอบเมื่อโฟกัส */
-    padding: 3px; /* กำหนดขนาดของพื้นที่ของ input และ button */
+    border: none; 
+    outline: none; 
+    padding: 3px; 
 }
 
 .search-form button {
@@ -91,6 +90,45 @@ nav {
     padding: 20px; 
 }
 
+.black-frame1, .black-frame2 {
+    border: 2px solid #000;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+.black-frame1:hover, .black-frame2:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+.text {
+    font-weight: bold;
+}
+
+.product-recommend-pic li img {
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover; 
+}
+
+.container-product-recommend{
+    width: 100%; 
+    max-width: 960px; 
+    margin: auto; 
+    padding: 10px; 
+    font-weight: bold;
+}
+
+.product-recommend-pic li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
 /* FOOTER */
 .footer {
     background-color: #000;
@@ -103,10 +141,6 @@ nav {
     margin-bottom: 20px;
 }
 
-.footer-menu ul li {
-    margin-bottom: 80px;
-}
-
 .social-icons li {
     display: inline-block;
     margin-right: 10px;
@@ -114,11 +148,11 @@ nav {
 
 .footer-container{
     font-family: Arial;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%; 
     max-width: 960px; 
-    margin: 0 auto; 
+    margin: auto; 
     padding: 10px; 
 }
+
+/*responsive*/
+
