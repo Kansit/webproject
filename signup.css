@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -5,14 +11,6 @@ nav {
     width: 100%;
     z-index: 999;
 }
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 
 body{
     display: flex;
