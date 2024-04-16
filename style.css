@@ -50,7 +50,7 @@ a {
 nav {
     display: flex;
     background-color: #ffffff;
-    outline: 1px solid rgb(109, 109, 109);
+    outline: 1px solid rgb(255, 255, 255);
     height: 80px;
     align-items: center;
     justify-content: space-between;
@@ -148,6 +148,61 @@ nav {
     height: 500px;
 }
 
+/*ตาราง size รองเท้า*/
+table {
+    margin: 0 auto; 
+    border-collapse: collapse; 
+    width: 80%; 
+}
+
+table {
+    width: 80%; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px; 
+    text-align: center; 
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.logo-container {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    width: 150px; 
+    height: auto; 
+}
+
+a.btn-back {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+a.btn-back:hover {
+    background-color: #f0f0f0;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
 /* FOOTER */
 .footer {
     background-color: #000;
@@ -173,6 +228,5 @@ nav {
     padding: 10px; 
 }
 
-/*responsive*/
 
 

@@ -1,0 +1,25 @@
+/*โทรศัพท์*/
+@media only screen and (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu {
+        display: none;
+    }
+    .search-form {
+        margin-top: 10px;
+    }
+    .container-1 {
+        padding: 10px;
+    }
+    .footer-menu {
+        text-align: center;
+    }
+    .video-section {
+        height: 300px; 
+        margin-top: 70px;
+    }
+    
+}
+
