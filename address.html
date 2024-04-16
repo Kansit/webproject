@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="address.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive4.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <nav class="nav">
@@ -31,16 +33,36 @@
         <div class="left">
             <h3>ที่อยู่จัดส่ง</h3>
             <form>
-                ชื่อ-นามสกุล
-                <input type="text" name="" placeholder="Enter Name">
-                ที่อยู่จัดส่ง
-                <input type="text" name="" placeholder="Enter Address">
-                เมือง
-                <input type="text" name="" placeholder="Enter City">
-                รัฐ/จังหวัด/ภูมิภาค
-                <input type="text" name="" placeholder="Enter State">
-                รหัสไปรษณีย์
-                <input type="text" name="" placeholder="zip code">
+                <p>ชื่อ-นามสกุล</p>
+                <input type="text" name="" placeholder="Enter Name" required>
+                <p>ที่อยู่จัดส่ง</p>
+                <input type="text" name="" placeholder="Enter Address" required>
+                <p>เมือง</p>
+                <input type="text" name="" placeholder="Enter City" required>
+                <p>รัฐ/จังหวัด/ภูมิภาค</p>
+                <input type="text" name="" placeholder="Enter State" required>
+                <p>รหัสไปรษณีย์</p>
+                <input type="text" name="" placeholder="zip code" required>
+                <p>รุ่นที่ต้องการ</p>
+                <div class="mb-3 mt-3">
+                    <select class="form-select" id="event" name="event">
+                      <option value="0">None</option>
+                      <option value="1">Aredian Boost Black 15000$</option>
+                      <option value="2">Aredian Boost Grey 15000$</option>
+                      <option value="3">Aredian Boost White 15000$</option>
+                      <option value="4">Aredian Boost Green 15000$</option>
+                      <option value="5">Aredian Boost Zebra 15000$</option>
+                      <option value="6">Aredian Boost Zero 15000$</option>
+                      <option value="7">Aredian Wing Spore 15000$</option>
+                      <option value="8">Aredian Wing Ice 15000$</option>
+                      <option value="9">Aredian Wing Stone 15000$</option>
+                      <option value="10">Aredian Wing Toy 15000$</option>
+                      <option value="11">Aredian Wing Liquid 15000$</option>
+                      <option value="12">Aredian Wing Dark 15000$</option>
+                    </select>
+                    <a href="size.html"> คลิ๊ก(ตารางเปรียบเทียบไซส์รองเท้า)</a>
+                </div>
+                <img id="product-image" src="img/default.jpg" width="100" alt="">
             </form>
         </div>
         <div class="right">
@@ -49,13 +71,13 @@
                 <img src="img/creditcard.png" width="100">
                 <br>
                 หมายเลขบัตร
-                <input type="text" name="" placeholder="Enter card number">
+                <input type="text" name="" placeholder="Enter card number" required>
                 วันหมดอายุ
-                <input type="text" name="" placeholder="mm/yy">
+                <input type="text" name="" placeholder="mm/yy" required>
                 CVV
-                <input type="text" name="" placeholder="CVV">
+                <input type="text" name="" placeholder="CVV" required>
                 <button type="submit-1">Proceed to Checkout</button>
-            </form>
+            </form>    
         </div>
     </div>
 </body>

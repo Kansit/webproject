@@ -3,7 +3,6 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 999;
 }
 
 body{
@@ -28,6 +27,12 @@ body{
 .right{
     flex-basis: 50%;
 }
+
+.left img {
+    width: 300px;
+    height: auto; 
+}
+
 form{
     padding: 2rem;
 }
@@ -61,8 +66,9 @@ button[type="submit-1"]:hover{
     background: #2e2e2e;
 }
 
-@media only screen and (max-width: 770px){
-    .container{
-        flex-direction: column;
-    }
+.form-select{
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    margin: 0.5rem 0;
+    outline: none;
 }

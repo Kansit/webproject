@@ -1,0 +1,33 @@
+/*โทรศัพท์*/
+@media only screen and (max-width: 600px) {
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu {
+        display: none;
+    }
+    .search-form {
+        margin-top: 10px;
+    }
+    .footer-menu {
+        text-align: center;
+    }
+    .container-signup{
+        flex-direction: column;
+        padding-top: 80px;
+        margin-top: 400px;
+        padding-top: 80px;
+    }
+    .input-box{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .input-box:nth-child(2n){
+        justify-content: space-between;
+    }
+}
