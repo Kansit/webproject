@@ -88,25 +88,6 @@ nav {
     max-width: 960px; 
     margin: 0 auto; 
     padding: 20px; 
-}
-
-.black-frame1, .black-frame2 {
-    border: 2px solid #000;
-    color: #000;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-align: center;
-    display: inline-block;
-    cursor: pointer;
-    margin-right: 10px;
-  }
-
-.black-frame1:hover, .black-frame2:hover {
-    background-color: #000;
-    color: #fff;
-  }
-
-.text {
     font-weight: bold;
 }
 
@@ -114,6 +95,11 @@ nav {
     width: 250px; 
     height: 250px; 
     object-fit: cover; 
+}
+
+.product-recommend-pic li{
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .container-product-recommend{
@@ -124,9 +110,41 @@ nav {
     font-weight: bold;
 }
 
-.product-recommend-pic li{
-    display: inline-block;
-    margin-right: 10px;
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.video-section {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.video-section video {
+    width: 100%;
+    height: 130%;
+    object-fit:inherit
+}
+.text-section {
+    text-align: center;
+}
+
+.text-section h1 {
+    margin-bottom: 10px;
+}
+
+.text-section p{
+    font-weight: bold;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
 }
 
 /* FOOTER */
@@ -155,4 +173,5 @@ nav {
 }
 
 /*responsive*/
+
 
